@@ -18,7 +18,7 @@ const tinhTongArrow = () => {
     const d = 6;
     return c + d;
 };
-console.log(`Kết quả tổng arrow function = ${tinhTongArrow}`);
+console.log(`Kết quả tổng arrow function = ${tinhTongArrow()}`);
 // 2. Viết hàm arrow function tính tổng 2 số (có sử dụng default value, optional
 // parameter, rest parameter)
 const tinhTongDefault = (num1 = 1, num2 = 1) => num1 + num2;
